@@ -1,0 +1,11 @@
+name: Weapons
+main: me.allink.NukkitWeapons.Main
+description: Plugin that implements various kinds of weapons.
+version: "master"
+api: ["1.0.13"]
+
+commands:
+  weapons:
+    aliases: [weapon]
+    description: Gives you a weapon
+    permission: weapons.command
